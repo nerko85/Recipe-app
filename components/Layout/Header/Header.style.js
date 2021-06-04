@@ -1,11 +1,9 @@
 import styled from 'styled-components'
 
 const StyledHeader = styled.header`
+    height:60px;
+
     > .container {
-        width:80%;
-        height:60px;
-        max-width:1200px;
-        margin:0 auto;
         display:flex;
         justify-content:space-between;
         align-items:center;
@@ -20,10 +18,14 @@ const Navigation = styled.nav`
 
     ul {
         display:flex;
-        gap:1rem;
+        gap:2rem;
 
         li {
             list-style:none;
+            
+            &:hover > a {
+                color:red !important;
+            }
         }
     }
 

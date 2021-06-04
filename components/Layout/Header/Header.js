@@ -6,7 +6,7 @@ import {Logo, Navigation, StyledHeader} from './Header.style'
 const Header = ()=>{
     return (  
       <StyledHeader>
-      <div class="container">
+      <div className="container">
         <Link href="/">
             <a>
                 <Logo>

@@ -2,15 +2,17 @@ import React from "react"
 import Footer from './Footer'
 import Header from './Header'
 
-const Layout = (props)=>{
+const Layout = ({children})=>{
     return (
         <>
-        <Header/>
-        <div className="container">
-          <main>
-            {props.children}
-          </main>
-        </div>    
+        <div className="wrapp">
+            <Header/>
+            <div className="container">
+                <main>
+                    {children}
+                </main>
+            </div>    
+        </div>
         <Footer/>
         </>
     )

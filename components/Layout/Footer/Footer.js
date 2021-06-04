@@ -1,17 +1,14 @@
 import React from "react"
 
+import {StyledFooter} from './Footer.style'
+
 const Footer = ()=>{
     return (  
-      <footer>
-      <a
-        href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Powered by{' '}
-        <img src="/vercel.svg" alt="Vercel" className="logo" />
-      </a>
-    </footer>
+      <StyledFooter>
+        <div className="container">
+            <p>Copyright 2021 ForgeIT d.o.o</p>
+        </div>
+    </StyledFooter>
     )
 }
 
