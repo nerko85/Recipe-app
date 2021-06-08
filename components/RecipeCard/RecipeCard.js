@@ -18,7 +18,7 @@ export default function RecipeCard({recipe}){
             <div className="content">
                 <div className="info">
                     <h4>{title}</h4>
-                    <p>Takes approx { cookingTime }</p>
+                    <p>Takes approx { cookingTime } mins to make</p>
                 </div>
                 <Button type="primary" url={slug}>
                     Cook this
