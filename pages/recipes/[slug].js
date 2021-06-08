@@ -4,7 +4,7 @@ import {createClient} from 'contentful'
 import {documentToReactComponents} from '@contentful/rich-text-react-renderer'
 
 import styled from "styled-components"
-import { Skeleton } from '../../components/Skelelton/Skeleton.style'
+import Skeleton from '../../components/Skelelton/Skeleton'
 
 export default function RecipeDetails({recipe}){
 

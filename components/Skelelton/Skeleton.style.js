@@ -4,8 +4,8 @@ const Skeleton = styled.div`
     max-width:1200px;
     margin:20px auto;
 
-    >div {
-        background:#dbcc1a;
+    > div {
+        background:#f01b29;
         border-radius:4px;
         margin:20px 0;
     }
