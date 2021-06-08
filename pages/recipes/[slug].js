@@ -4,8 +4,12 @@ import {createClient} from 'contentful'
 import {documentToReactComponents} from '@contentful/rich-text-react-renderer'
 
 import styled from "styled-components"
+import { Skeleton } from '../../components/Skelelton/Skeleton.style'
 
 export default function RecipeDetails({recipe}){
+
+    if(!recipe) return <Skeleton/>
+
     const{title, featuredImage, cookingTime, ingredients, method} = recipe.fields;
     return(
         <div>
@@ -89,7 +93,7 @@ export async function getStaticPaths(){
 
     return {
         paths,
-        fallback:false
+        fallback:true
     }
 
 }
