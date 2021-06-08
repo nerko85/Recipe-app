@@ -9,10 +9,7 @@ export default function Home({recipes}) {
       <Head>
         <title>Recipes page</title>
         <link rel="icon" href="/favicon.ico" />
-        <meta property="og:title" content="My recipe page" key="title" />
-        <meta name="description" content="Here you can find all of the recipes you need to make your food taste good." key="description"/>
-        <meta name="keywords" content="recipes, food, cooking, meal, taste" key="keywords"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        
       </Head>
 
       <RecipeList>
