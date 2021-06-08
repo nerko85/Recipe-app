@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 const StyledHeader = styled.header`
     height:60px;
+    margin-bottom:2rem;
 
     > .container {
         display:flex;
