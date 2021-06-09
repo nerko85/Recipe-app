@@ -8,6 +8,7 @@ const Header = ()=>{
     return (  
         <StyledHeader>
             <div className="container">
+                <div className="header-inner">
                 <Link href="/">
                     <a>
                         <Logo>
@@ -35,6 +36,7 @@ const Header = ()=>{
                         </li>
                     </ul>   
                 </Navigation>
+                </div>
             </div>
         </StyledHeader>
     )

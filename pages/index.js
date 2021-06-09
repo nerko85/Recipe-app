@@ -31,8 +31,6 @@ const size = {
   desktop: '2560px'
 }
 
-console.log(size.tablet)
-
 const RecipeList = styled.div`
   display:grid;
   grid-template-columns:repeat(3, 1fr);

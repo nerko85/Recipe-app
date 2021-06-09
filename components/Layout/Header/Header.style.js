@@ -4,7 +4,7 @@ const StyledHeader = styled.header`
     height:60px;
     margin-bottom:2rem;
 
-    > .container {
+    .header-inner {
         display:flex;
         justify-content:space-between;
         align-items:center;
@@ -12,7 +12,7 @@ const StyledHeader = styled.header`
 `
 
 const Logo = styled.h1`
-
+    display:inline-block;
 `
 
 const Navigation = styled.nav`
